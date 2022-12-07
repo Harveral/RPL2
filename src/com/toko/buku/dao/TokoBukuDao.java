@@ -13,7 +13,7 @@ import java.util.List;
  * @author Harry
  */
 public interface TokoBukuDao {
-    public void save(TokoBuku tokobuku);
+    public String save(TokoBuku tokobuku);
     public void update(TokoBuku tokobuku);
     public void delete(TokoBuku tokobuku);
     //public TokoBuku get(String kd_buku);
